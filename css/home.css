@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-image:linear-gradient(to right,#da611011,#da611011),url(./img/bg.jpg);
+} */
+
+/*header section*/
+
+.logo_name{
+    background-color: #fff;
+}
+.logo_name img {
+    display: block;
+    height: auto;
+    width: 40%;
+    margin: 10px auto;
+}
+
+.navigation{
+    background-color: #da6110;
+    color: #fff;
+}
+
+/*Middle Section*/
+
+.main{
+    border: 2px solid #da6110;
+    background-image:linear-gradient(to right,#da611011,#da611011),url(./img/bg.jpg);
+}
+.result_title{
+    background-color: #da6110;
+    color: #12223d;
+}
+.form_box{
+    background: rgba(255, 255, 255, 0.452)
+}
+.button{
+    background-color: #12223d;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/*Footer Section*/
+.footer{
+    background-color: #12223d;
+    color: #fff;
+}
