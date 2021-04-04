@@ -1,59 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LNMI-Patna || SEMESTER RESULT </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LNMI-Patna || SEMESTER RESULT</title>
+    <link rel="stylesheet" href="./css/home.css" />
+    <link
+      rel="shortcut icon"
+      href="./css/img/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="header">
-            <header class="logo_name">
-                <img src="./css/img/lnmi-logo.png" alt="lnmi_logo">
-            </header>
-            <nav class="navigation">
-                <a href="https://lnmipat.ac.in/">Home</a>
-                <a href="./adminlogin.html">Administration Login</a>
-            </nav>
+      <div class="header">
+        <header class="logo_name">
+          <img src="./css/img/lnmi-logo.png" alt="lnmi_logo" />
+        </header>
+        <nav class="navigation">
+          <a href="https://lnmipat.ac.in/"
+            ><i class="fas fa-home"></i><span> Home</span></a
+          >
+          <a href="./adminlogin.html"
+            ><i class="fas fa-user"></i><span> Administration Login</span></a
+          >
+        </nav>
+      </div>
+      <div class="main">
+        <div class="result_title">
+          <i class="fas fa-lock-open"></i>
+          <span>View Result</span>
         </div>
-        <div class="main">
-           <div class="result_title">
-               <i class="material-icons"></i>
-               <span>View Result</span>
-           </div>
-           <div class="form_box">
-               <form action="">
-                   <label for="registration_label">Resgistration No:</label>
-                   <br>
-                   <input type="text" class="registration_input">
-                   <br>
-                   <label for="date_of_birth_label">Date Of Birth</label>
-                   <br>
-                   <input type="date" class="dob_input">
-                   <br>
-                   <label for="semester_label">Semester</label>
-                   <select name="semester" class="semeter_input">
-                       <option value="">MBA</option>
-                       <option value="">MBA(IB)</option>
-                       <option value="">MCA</option>
-                       <option value="">BBA</option>
-                       <option value="">BCA</option>
-                   </select>
-                   <br>
-                   <div class="button_box">
-                    <button class="button">Search</button>
-                   </div>
-                   
-               </form>
-           </div>
+        <div class="form_box">
+          <div class="result_icon">
+            <img src="./css/img/result.png" alt="result_icon" />
+          </div>
+          <div class="form_input">
+            <form action="">
+              <label for="registration_label">Resgistration No:</label>
+              <br />
+              <input
+                type="text"
+                class="registration_input"
+                placeholder="Ex- 18303333XXX"
+              />
+              <br />
+              <label for="date_of_birth_label">Date Of Birth</label>
+              <br />
+              <input type="date" class="dob_input" placeholder="DD/MM/YYYY" />
+              <br />
+              <label for="semester_label">Semester -</label>
+              <select name="semester" class="semeter_input">
+                <option value="">BCA-A</option>
+                <option value="">BCA-B</option>
+              </select>
+              <br />
+              <div class="button_box">
+                <button class="button">
+                  <i class="fas fa-search"> Search</i>
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-        <footer class="footer">
-            <div class="copyright">
-                © 2021 LNMI Patna | Proudly Designed By Amritanshu Prajapati
-            </div>
-        </footer>    
+      </div>
+      <footer class="footer">
+        <div class="copyright">
+          © 2021 LNMI Patna | Proudly Designed By S.A.R Group
+        </div>
+      </footer>
     </div>
     <script src="./js/Controller.js"></script>
-</body>
+  </body>
 </html>
