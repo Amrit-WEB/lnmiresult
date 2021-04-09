@@ -87,12 +87,10 @@ span{
     letter-spacing: 2px;
 }
 input{
-    width: -webkit-fill-available ;
+    
     background: none;
     border: none;
-    border-bottom: 1px solid #5eaaa8;
-    margin: 20px 0 20px 8px;
-    padding: 3px;
+    border-bottom: 1px solid #5eaaa8
     
 }
 input:focus{

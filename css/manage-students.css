@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+
+/*Working title elements*/
+.working_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.add_student{
+    margin: 0 15px;
+}
+.fa-plus{
+    color:#464545;
+    background-color: #5eaaa8;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+/*Working area elements*/
+.working_area {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+table{
+    margin: 5px;
+    width: 99%;
+    height: auto;
+    background-color:#ffac22 ;
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+
+tbody{
+    background-color: #fdd885;
+}
+  
+td{
+    padding: 0px 5px;
+}
+.action-btn{
+    border: none;
+    margin: 0 0 6px 7px;
+    background-color: #f8d885;
+}
+
+.fas-action{
+    font-size: 15px;
+}
+.fa-edit{
+    color: blueviolet;
+}
+.fa-trash{
+    color: crimson;
+}
+.no_student{
+    background: #ffac22;
+    padding: 35px;
+    width: auto;
+    margin: 15% auto;
+    color: #000;
+    border: 2px solid #fdd885;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans JP';
+    font-size: 25px;
+}

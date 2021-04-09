@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f1f1;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f9e0a2;
+  padding: 1rem;
+  align-items: center;
+}
+.logout > a {
+  color: #f05945;
+}
+.logout > a :hover {
+  color: red;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.left_panel {
+  padding: 15px;
+  width: 18%;
+  height: 100%;
+  background-color: #5eaaa8;
+  display: flex;
+  flex-direction: column;
+}
+.nav-a {
+  border-radius: 0px 10px 2px 0px;
+  background-color: #bbf5eb29;
+  padding: 1px 6px;
+  margin: 15px 0;
+  color: #f8f1f1;
+  text-decoration: none;
+}
+.nav-a:hover {
+  color: #f9e0a2;
+}
+.nav_active{
+  background-color: #5eaaa8;
+}
+.working_panel {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+}
+.working_title {
+  width: 100%;
+  height: 10%;
+  background-color: #a3d2ca;
+}
+.working_title > h3 {
+  color: #464545;
+  letter-spacing: 2px;
+  margin: 10px;
+}
+
+.working_area {
+  display: flex;
+  flex-direction: row;
+}
+.dash-box {
+  margin: 5% auto;
+  width: 40%;
+  height: 25vh;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.dash-1 {
+  background-color: #ffac22
+}
+.dash-2 {
+  background-color: #22d285;
+}
+.working-a{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bg-icon{
+    position: absolute;
+    margin: 48px 0px 0px 4px;
+}
+.box_span_name{
+    position: absolute;
+    margin: 6rem 0% 0 16rem;
+    color: #f8f1f1;
+    font-size: 20px;
+}
+.counter{
+    position: absolute;
+    margin: 2rem 0% 0 17rem;
+    color: #f8f1f1;
+    font-size: 40px;
+}
+
+.fa-graduation-cap, .fa-users {
+  display: inline-block;
+  font-size: 120px;
+}
+.fa-users{
+    color: #fdd885;
+}
+.fa-graduation-cap{
+    color: #85fdaa;
+}
+
+.footer {
+  background-color: #5eaaa8;
+  width: 100%;
+  padding: 0.3rem;
+  color: #f8f1f1;
+  justify-content: space-between;
+}
+.copyright {
+  margin: 0 0 0 36%;
+}
+
+
+/************************************************************************/
