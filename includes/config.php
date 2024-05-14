@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-define('DB_HOST','us-cdbr-east-03.cleardb.com');
-define('DB_USER','b00554e870b498');
-define('DB_PASS','e83311a6');
-define('DB_NAME','heroku_38041a1b6a51f2b');
+define('DB_HOST','sql204.infinityfree.com');
+define('DB_USER','if0_36541480');
+define('DB_PASS','CKYhIyHZrFG');
+define('DB_NAME','if0_36541480_lnmiresult');
 // Establish database connection.
 try
 {
