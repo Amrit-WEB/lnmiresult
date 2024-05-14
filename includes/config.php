@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-define('DB_HOST','sql204.infinityfree.com');
-define('DB_USER','if0_36541480');
-define('DB_PASS','CKYhIyHZrFG');
-define('DB_NAME','if0_36541480_lnmiresult');
+define('DB_HOST','sql201.infinityfree.com');
+define('DB_USER','if0_36545168');
+define('DB_PASS','QdMpiIvHCGRf');
+define('DB_NAME','if0_36545168_lnmiresult');
 // Establish database connection.
 try
 {
